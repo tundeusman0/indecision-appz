@@ -1,0 +1,83 @@
+* {
+    font-family: cursive;
+    color: $brand-color;
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background: $background-color;
+}
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+.optionsContainer{
+    background: #444444;
+}
+button{
+    border: none;
+    color: inherit;
+    background-color: initial;
+    cursor: pointer;
+}
+li{
+    border-bottom: 1px solid #bbb7b734;
+}
+form{
+    padding: $default-padding;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form > input{
+    background: $dark-color;
+    color: $subtitle-white;
+    padding: $default-padding;
+    border: none;
+    flex: 2;
+}
+form > button{
+    background: $blue-purple;
+    color: $title-white;
+    padding: $default-padding;
+    margin: 10px;
+}
+.addOption h4{
+    color: $title-white;
+    text-align: center;
+    margin: 20px;
+}
+.modal > .modal__content{
+    padding: 20px;
+}
+.modal button{
+    background: $blue-purple;
+    color: white;
+    padding: $default-padding;
+    margin: $default-padding
+}
+.modal h3{
+    font-size: $l-font;
+}
+.modal h4{
+    font-size: $md-font;
+    padding: $default-padding;
+    color: aliceblue;
+    word-break: break-all;
+}
+.ReactModalPortal .ReactModal__Overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    max-width: 30rem;
+    text-align: center;
+    outline: none;
+    padding: $default-padding;
+    background: $background-color;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

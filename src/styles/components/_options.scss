@@ -1,0 +1,18 @@
+.options{
+    // display: flex;
+    // justify-content: space-between;
+}
+.option li >p{
+    color: $title-white;
+    word-break: break-all;
+}
+.option li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: $md-font;
+    list-style-type: decimal;
+}
+.option li > button{
+    color: $subtitle-white;;
+}

@@ -1,0 +1,18 @@
+.action{
+    display: flex;
+    flex-direction: column;
+}
+.action > button:first-child{
+    background: $blue-purple;
+    padding: 30px;
+    font-size: $l-font;
+    color: $title-white;
+}
+.action__others{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    background: #1a1818;
+    font-size: $md-font;
+}
